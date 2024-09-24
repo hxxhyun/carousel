@@ -1,0 +1,45 @@
+body {
+  background-color: #eeeeee;
+}
+
+ul {
+  height: 200px;
+  width: 400px;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+  position: relative;
+}
+
+li {
+  position: absolute;
+  opacity: 0;
+  transition: all 1s linear;
+}
+
+.carousel {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  position: absolute;
+}
+
+.arrow.left {
+  left: 10px;
+}
+
+.arrow.right {
+  right: 10px;
+}
+
+.arrow:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+
+li.show {
+  opacity: 1;
+}
