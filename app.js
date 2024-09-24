@@ -1,5 +1,3 @@
-alert("Hello, World");
-
 const rightArrow = document.querySelector(".right");
 const leftArrow = document.querySelector(".left");
 const lists = document.querySelectorAll("li");
